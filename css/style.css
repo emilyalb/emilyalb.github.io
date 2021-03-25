@@ -1,5 +1,7 @@
 /*Begin your code here*/
 /*Requirement 1*/
+
+ 
 body{
   margin: 0;
   padding: 0;
@@ -51,6 +53,7 @@ header{
   border-radius: 7px;
   padding: 0 0 50px 0;
   /*Your code here.*/
+ 
   /*Take a look at flex-basis*/
 
 }
@@ -120,11 +123,11 @@ header{
    
       
     /*Your code here again.*/  
-  }
+  
 
   /*Requirement 11*/
   .package {
-  flex-basis: 230px;
+  flex-basis:250px;
   margin: 12px;
   background: #fff;
   border-radius: 7px;
