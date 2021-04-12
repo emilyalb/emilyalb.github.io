@@ -38,8 +38,12 @@
       <h2>Walkthrough</h2>
       <p>below is a video walkthrough of The Camp Courage App. </p>
    
-   <div class="wrapper"><video width="320" height="500" controls>
-  <source src="/walkthrough.mp4" type="video/mp4">
+   <div class="demovideo"><video width="320" height="500" controls>
+  <source src="/walkthrough.mp4" type="video/mp4" alt="demo video of application">
+        <track default
+           kind="captions"
+           srclang="en"
+           src="/walkthrough.mp4" />
   <source src="movie.ogg" type="video/ogg">
   Your browser does not support the video tag.
 </video></div>  
@@ -49,7 +53,7 @@
   </main>
     <footer>
     <nav>
-        <ul id="navigation">
+        <ul id="navigation-bottom">
             <li><a href="ui.html"> UI </a></li>
             <li><a href="ux.html"> UX </a> </li>  
             <li><a href="demo.html" class="active-page"> Demo </a> </li>
